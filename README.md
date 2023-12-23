@@ -3,7 +3,12 @@ Python code for creating fake bluetooth devices around (Comming soon)
 ## Please support me with STAR on this repository
 # INSTALLATION
 ### Kali Linux
+```
+sudo apt-get install bluez
+sudo apt-get install python3-bluez
+pip install string
 pip install bluetooth
+```
 
 ### Termux (Android)
 ```
