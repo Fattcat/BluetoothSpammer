@@ -2,15 +2,15 @@
 Python code for creating fake bluetooth devices around (Comming soon)
 ## Please support me with STAR on this repository
 # INSTALLATION
-- 1
+- Install repository
 ```
 git clone https://github.com/Fattcat/BluetoothSpammer.git
 ```
-- 2
+- Move to folder
 ```
 cd Bluetooth-Spammer
 ```
-- 3
+- Starting file
 ```
 python3 Bluetooth-Spammer.py
 ```
