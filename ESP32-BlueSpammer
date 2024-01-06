@@ -1,0 +1,31 @@
+#include <BluetoothSerial.h>
+
+BluetoothSerial SerialBT;
+
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+  // Change Bluetooth device name periodically
+  SerialBT.begin("Fake Galaxy Buds");
+  delay(5000);
+
+  SerialBT.begin("JBL Charge 3");
+  delay(3000);
+
+  SerialBT.begin("JBL Charge Flip");
+  delay(3000);
+
+  SerialBT.begin("Galaxy Buds Plus");
+  delay(3000);
+
+  SerialBT.begin("Galaxy Plus 2");
+  delay(3000);
+
+  SerialBT.begin("Mi True Wireless headphones");
+  delay(3000);
+
+  SerialBT.begin("Airpods");
+  delay(3000);
+}
